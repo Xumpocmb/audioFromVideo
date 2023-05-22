@@ -16,7 +16,3 @@ if Path(full_path).is_file():
         audio.write_audiofile(f'{Path(full_path).stem}.mp3')
     except Exception as ex:
         print(f'Ошибка: {ex}')
-
-
-
-
